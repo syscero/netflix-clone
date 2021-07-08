@@ -4,7 +4,7 @@
     --branco: #DDD;
     --linkAlternativo: grey;
     --corBotao: rgba(0,0,0,.5);
-    --alturaPrincipal: 400px;
+    --alturaPrincipal: 450px;
     --tamanhoFonteLogo: 2.4em;
     --tamanhoFontePrincipal: 1.2em;
     --tamanhoFonteTitulo: 2.2em;
@@ -120,4 +120,11 @@ body {
 
 .categoria-filme h2 {
     margin: 15px 10px 8px
+}
+
+.banner {
+    height: 250px;
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
 }

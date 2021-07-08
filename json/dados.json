@@ -1,37 +1,262 @@
 {
-    "principal": [{
-        "titulo": "House of Cards",
-        "descricao": "O congressista Francis Underwood e sua mulher, Claire, fazem de tudo para conquistar seus objetivos, não importa o que aconteça. Um mundo político recheado de ganância, corrupção e luxúria na capital Washington.",
-        "img": "/img/capa-house.jpg"
-    }, {
-        "titulo": "Hamilton",
-        "descricao": "Hamilton: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
-        "img": "/img/hamilton.jpg"
-    }],
-    "categorias": [{
-        "titulo": "Menos Assistidos",
-        "itens": [
-            {
-                "titulo": "Hamilton Item",
-                "descricao": "Hamilton Item: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
-                "img": "/img/hamilton.jpg"
-            }]
-        }, {
-        "titulo": "Nunca imaginados",
-        "itens": [
-            {
-                "titulo": "Hamilton Item",
-                "descricao": "Hamilton Item: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
-                "img": "/img/hamilton.jpg"
-            }]
-        }, {
-        "titulo":"Porque Você Tem Medo de Andar na Rua",
-        "itens": [
-            {
-                "titulo": "Hamilton Item",
-                "descricao": "Hamilton Item: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
-                "img": "/img/hamilton.jpg"
-            }]
+    "principal": [
+        {
+            "titulo": "House of Cards",
+            "descricao": "O congressista Francis Underwood e sua mulher, Claire, fazem de tudo para conquistar seus objetivos, não importa o que aconteça. Um mundo político recheado de ganância, corrupção e luxúria na capital Washington.",
+            "img": "./img/capa-house.jpg"
+        },
+        {
+            "titulo": "Hamilton",
+            "descricao": "Hamilton: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
+            "img": "./img/hamilton.jpg"
+        },
+        {
+            "titulo": "Pantera Negra",
+            "descricao": "Conheça a história de T'Challa, príncipe do reino de Wakanda, que perde o seu pai e viaja para os Estados Unidos, onde tem contato com os Vingadores. Entre as suas habilidades estão a velocidade, inteligência e os sentidos apurados.",
+            "img": "https://br.web.img2.acsta.net/newsv7/18/01/30/14/19/5709783.jpg"
+        },
+        {
+            "titulo": "John Wick 3: Parabellum",
+            "descricao": "O lendário John Wick luta para sair de Nova York quando um contrato de 14 milhões de dólares faz dele o alvo dos maiores assassinos do mundo.",
+            "img": "https://reservacinefila.com.br/wp-content/uploads/2019/05/john-wick-3-JW3_D33_11118_RC_rgb.jpg"
+        }
+    ],
+    "categorias": [
+        {
+            "titulo": "Piores dos Últimos 40 Anos",
+            "itens": [
+                {
+                    "titulo": "Cats",
+                    "descricao": "A tribo de gatos Jellicles todo ano precisa tomar uma grande decisão em uma noite especial: escolher um dos membros para ascender ao Heaviside Layer, lugar que promete uma vida melhor a todos. Cada um dos gatos conta a sua história para sua líder, a velha Deuteronomy, na tentativa de ser o escolhido.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5XIZDh3n6BZAy00PqXpK1D16tZg.jpg"
+                },
+                {
+                    "titulo": "Holmes & Watson",
+                    "descricao": "Após um assassinato no palácio de Buckingham, tudo indica que a próxima vítima é ninguém menos que a Rainha Vitória. Contando com apenas quatro dias, Holmes e Watson precisam parar o terrível plano do Professor Moriarty e salvar a regente.",
+                    "img": "https://fanart.tv/fanart/movies/426563/movieposter/holmes-and-watson-5c866b1b95ba7.jpg"
+                },
+                {
+                    "titulo": "Emoji: O Filme",
+                    "descricao": "Escondido dentro do aplicativo de texto está Textópolis, uma cidade cheia de vida onde todos os emojis vivem, aguardando serem selecionados pelo dono do celular. Cada emoji tem apenas uma expressão facial, exceto Gene, que nasceu sem filtro.",
+                    "img": "https://www.cineteka.com/img/filmes/015214_big.jpg"
+                },
+                {
+                    "titulo": "Os Estados Unidos da Hilary",
+                    "descricao": "Verdades sórdidas são reveladas sobre Hillary e a história secreta do Partido Democrata. Este controverso filme é lançado no meio da campanha presidencial de 2016.",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSxtyq8D5UXkznLSswhqsqTAm_bT6zHsd-A3YOJtRMVgCvJoLa"
+                },
+                {
+                    "titulo": "Cinquenta Tons de Cinza",
+                    "descricao": "Em Cinquenta Tons de Cinza, Dakota Johnson vive Anastasia Steele, uma estudante de literatura de 21 anos, romântica e virgem. Um dia, ela precisa entrevistar para o jornal da faculdade o jovem bilionário Christian Grey (Jamie Dornan). Nasce, então, uma complexa relação entre ambos: com a descoberta amorosa e sexual, Anastasia conhece os prazeres do sadomasoquismo, tornando-se o objeto de submissão do sádico Grey.",
+                    "img": "https://assetsgn.nowonline.com.br/assets/p10592929_v_v8_an.jpg"
+                },
+                {
+                    "titulo": "Quarteto Fantástico",
+                    "descricao": "Quatro adolescentes são conhecidos pela inteligência e pelas dificuldades de inserção social. Juntos, são enviados a uma missão perigosa em uma dimensão alternativa. Quando os planos falham, eles retornam à Terra com sérias alterações corporais. Munidos desses poderes especiais, eles se tornam o Senhor Fantástico (Miles Teller), a Mulher Invisível (Kate Mara), o Tocha Humana (Michael B. Jordan) e o Coisa (Jamie Bell). O grupo se une para proteger a humanidade do ataque do Doutor Destino (Toby Kebbell).",
+                    "img": "https://br.web.img3.acsta.net/pictures/15/07/21/21/04/518773.jpg"
+                },
+                {
+                    "titulo": "Salvando o Natal",
+                    "descricao": "Kirk (Kirk Cameron) está muito entuasiasmado com a chegada no Natal e com a festa que sua irmã (Bridgette Ridenour) está preparando. Porém, seu cunhado, Christian (Darren Doane), está desiludido com as comemorações e com o verdadeiro siginificado da data. Kirk mostra a Christian que o Natal continua tendo o significado que sempre teve.",
+                    "img": "https://br.web.img3.acsta.net/pictures/14/09/02/12/04/569331.jpg"
+                },
+                {
+                    "titulo": "Para Maiores",
+                    "descricao": "Diferentes histórias, cada uma mais politicamente incorreta do que a outra, estreladas pelo maiores astros do cinema, se interligam de forma inusitada.",
+                    "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSA6pIQPN3t8xavxZ-kaVHve5I_uw_8bfTKej13Uo6CeDGNYGEg"
+                },
+                {
+                    "titulo": "A Saga Crepúsculo: Amanhecer - Parte 2",
+                    "descricao": "Depois do nascimento da filha de Bella e Edward, Renesmee, os Cullen reúnem lobisomens, clãs de vampiros e outros aliados de todo o mundo para protegê-la, já que uma falsa alegação faz com que os Volturi queiram matá-la.",
+                    "img": "https://xddownloads.files.wordpress.com/2012/11/amanhecerparte2.jpg"
+                },
+                {
+                    "titulo": "Cada Um Tem a Gêmea Que Merece",
+                    "descricao": "Jack, um publicitário de sucesso com uma linda família, enlouquece com a visita de sua irmã gêmea Jill no dia de Ação de Graças. As coisas ficam ainda mais fora de controle quando Jill decide ficar mais tempo.",
+                    "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTCQOJPMLK8lPiLIVnkB34MsI1yBCuwWSAMQIrZMFyO6LHEHqM0"
+                },
+                {
+                    "titulo": "O Último Mestre do Ar",
+                    "descricao": "The Last Airbender é um filme americano de 2010, dos gêneros aventura, ação e fantasia, dirigido por M. Night Shyamalan. É baseado na série animada de televisão Avatar: The Last Airbender, criada por Michael Dante DiMartino e Bryan Konietzko para a Nickelodeon Animation Studios.",
+                    "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSscDCG2AkAIx4vZ-sBMqsjKKK6bb9NoIBgg6ZTxEguyg_TkvSZ"
+                },
+                {
+                    "titulo": "Transformers: A Vingança dos Derrotados",
+                    "descricao": "Passaram-se dois anos desde que Sam Witwicky e os Autobots salvaram a raça humana e tentam ter uma vida normal: Sam está começando a faculdade, enquanto os Autobots trabalham com uma organização militar secreta e tentam construir uma casa para eles na Terra. Porém, um antigo Decepticon conhecido como 'The Fallen' aparece para se vingar, então Sam e sua namorada Mikaela precisam desvendar a história dos Transformes e achar um caminho para derrotá-lo.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/19AaiftqKuLJQu0cUrfpiPanR6l.jpg"
+                },
+                {
+                    "titulo": "O Guru do Amor",
+                    "descricao": "Nascido nos Estados Unidos e criado na Índia, Pitka regressa à sua terra natal em busca de uma carreira como espiritualista e especialista em autoajuda. Suas habilidades são colocadas à prova quando ele deve ajudar um jogador de hóquei a salvar o seu casamento antes da Copa Stanley.",
+                    "img": "https://br.web.img3.acsta.net/medias/nmedia/18/91/22/50/20135332.jpg"
+                },
+                {
+                    "titulo": "Eu Sei Quem Me Matou",
+                    "descricao": "Depois de sofrer nas mãos de um sádico sequestrador, Aubrey volta para casa e diz ser Dakota, personagem criada por ela para um exercício escolar. Ela pode ter enlouquecido ou estar mentindo, mas a história pode ter um fundo de verdade.",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQWsVxxmgKkbjW6JQabSCTkT2dI2RH2O30vW6LUMDjNkUoCfIw"
+                },
+                {
+                    "titulo": "Instinto Selvagem 2",
+                    "descricao": "Após a misteriosa morte de seu namorado em um acidente de carro, a escritora de suspenses Catherine Tramell, que sobreviveu ao acidente, é encaminhada para ser avaliada pelo conceituado psicólogo criminalista Michael Glass. O psicólogo conclui que Catherine é uma mulher sedutora e perigosa. Apesar disso, ele não resiste aos encantos dela e eles acabam se envolvendo em um intenso jogo de mentiras e sedução.",
+                    "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRwm_PxZWEmasaMOigMyMJkWPAnyM4E42E9feZajiL3eCs7aU64"
+                },
+                {
+                    "titulo": "Dirty Love: Dando o Troco",
+                    "descricao": "Rebecca decide dar o troco depois de ser traída pelo namorado. Desastrada, ela acaba atraindo os tipos mais bizarros de homens. Após alguns encontros fracassados, a jovem teme uma possível recaída com seu ex-namorado.",
+                    "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRLJbi5W_iwLIZxQB3BGajh5xIuwnXws1M9VHOvdCmWtKAIa1ZM"
+                },
+                {
+                    "titulo": "Mulher-Gato",
+                    "descricao": "Funcionária de uma indústria de cosméticos é assassinada depois de descobrir um perigoso segredo sobre um produto antienvelhecimento. Porém, um gato egípcio a salva, dando-lhe o poder da velocidade e os sentidos de um ágil felino.",
+                    "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQA2XVQOUkx3RRz6dbYpUF80axI4ykPrDc3cj3JD1IiEkTZnAzb"
+                },
+                {
+                    "titulo": "Contato de Risco",
+                    "descricao": "Gigli recebe ordens de sequestrar o irmão deficiente mental de um poderoso promotor federal. Quando os planos se complicam, o chefe de Gigli envia a sensual criminosa Ricki, que chega com as próprias instruções para ajudar no sequestro. Gigli se apaixona por Ricki, que é comprometida e só representa mais problemas.",
+                    "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSE_Go6f6FZvanS81lNW5av1I6y4yYEnuVsniYASuxqnk0Y92yz"
+                },
+                {
+                    "titulo": "Destino Insólito",
+                    "descricao": "Um naufrágio leva uma americana e um italiano a ficarem juntos em uma ilha deserta. Lá, eles precisam aprender a sobreviver e descobrem que suas diferenças são, na verdade, a fonte da paixão que nasce entre ambos.",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5KwKsmt4UykOGjQVKKDvhRq9SjQfppel1MwCp3YkdtTx5Zj3"
+                },
+                {
+                    "titulo": "Fora de Casa!",
+                    "descricao": "Gordon, um cartunista desempregado de 28 anos, volta a morar com os pais e o irmão mais novo, Freddy. Quando os pais exigem que ele vá embora, ele começa a espalhar boatos de que o pai abusa sexualmente de Freddy que, a propósito, tem 25 anos.",
+                    "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRn--IoCQ6lMw0cgEsqX3KsJZBR5L79hnQLClC_z1NxWUeozRRP"
+                },
+                {
+                    "titulo": "A Reconquista",
+                    "descricao": "Mil anos no futuro, quando uma raça alienígena, os Psyclos, conquistam o planeta Terra e o transformam numa colônia, um herói rebelde, Johnny Goodboy, irá liderar uma revolta para livrar o planeta dos alienígenas gigantes.",
+                    "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSvyw3eX416LraE-Zd02MkwMrymV7O0C8SuDrUo0rNNoctRF9VP"
+                },
+                {
+                    "titulo": "As Loucas Aventuras de James West",
+                    "descricao": "Quando o presidente Ulysses S. Grant fica sabendo que o diabólico inventor Arliss Loveless planeja assassiná-lo e conquistar os Estados Unidos com suas máquinas modernas, ele encarrega James West, o herói da Guerra Civil americana, e o militar Artemus Gordon de capturá-lo. A personalidade dos dois nem sempre combina, mas a dupla consegue trabalhar junto. Com a ajuda de uma mulher misteriosa, West e Gordon chegam a Loveless.",
+                    "img": "https://br.web.img2.acsta.net/medias/nmedia/18/87/30/16/19874087.jpg"
+                },
+                {
+                    "titulo": "Hollywood - Muito Além das Câmeras",
+                    "descricao": "Elenco de um filme de ação conta por que o diretor da produção roubou e destruiu o próprio trabalho.",
+                    "img": "https://http2.mlstatic.com/D_NQ_NP_807002-MLB32461992943_102019-O.jpg"
+                },
+                {
+                    "titulo": "O Mensageiro",
+                    "descricao": "Após uma guerra devastadora, um exército comandado aterroriza a população em uma terra sem lei. Um homem encontra um veículo dos Correios e passa a entregar correspondências atrasadas, tornando-se o Mensageiro, o qual acaba levando esperança e motivação aos sobreviventes da guerra.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hfgJx9x0mT7kI9Vy80cwL9lt8TK.jpg"
+                },
+                {
+                    "titulo": "Striptease",
+                    "descricao": "Erin perde o emprego de secretária no FBI por causa do ex-marido, um pequeno golpista. Mãe solteira, ela aceita um emprego como stripper em uma casa noturna de Miami tentando conseguir dinheiro para recuperar a custódia de sua filha, perdida quando ficou desempregada. Logo, ela se vê envolvida nas vidas dos empregados e clientes do estabelecimento, e um congressista conservador desprezível começa a persegui-la.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4zMy6R7acotCmGoDk4sjzRtDwKn.jpg"
+                },
+                {
+                    "titulo": "Showgirls",
+                    "descricao": "Nomi Malone se muda para Las Vegas e começa a trabalhar como dançarina em uma boate de quinta categoria. Ela se torna substituta de uma das strippers, dorme com o chefe e é capaz de tudo para ser a principal dançarina do grupo.",
+                    "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHqJKAbIIwmYsFkQYXqy9IlDbB60MS2-gLfLmfqtX9fzchWUAW"
+                },
+                {
+                    "titulo": "A Cor da Noite",
+                    "descricao": "Um psicólogo nova-iorquino fica traumatizado e viaja para Los Angeles depois que um de seus pacientes comete suicídio. Na Califórnia, seu amigo médico é brutalmente assassinado e ele aceita atender alguns de seus pacientes, porém as consequências são assustadoras.",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2oaBuDGH2_DLGM1Zh5lmYIb7AKeT81GSqAAazic1p7Xk0Bnir"
+                },
+                {
+                    "titulo": "Proposta Indecente",
+                    "descricao": "Um adorável casal, David e Diana Murphy, tem um futuro brilhante. Ele é um arquiteto; ela corretora. Mas eles estão passando por uma crise financeira. Em uma última tentativa de salvar a casa de seus sonhos, eles vão para Las Vegas a fim de ganhar dinheiro no jogo e conseguirem pagar a hipoteca. Após perderem tudo, um misterioso bilionário oferece uma solução para o seu problema financeiro: um milhão de dólares, se ele puder dormir com Diana.",
+                    "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwPPghaYlr5M-ucP0V2HS-SqEH-0O0sWoncuEnH4i0yqR1ovdB"
+                },
+                {
+                    "titulo": "Uma Luz na Escuridão",
+                    "descricao": "Uma secretária se apaixona por seu novo chefe misterioso e insiste em ir para a Alemanha como espiã da Segunda Guerra Mundial.",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtI15dngFzljOk5zNAK9hRGVD35QCYqsaDvqEzCOwo3NKSQOKn"
+                },
+                {
+                    "titulo": "Hudson Hawk - O Falcão está à Solta",
+                    "descricao": "Um ex-presidário é chantageado por um casal rico para descobrir os detalhes da alquimia de Leonardo da Vinci.",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7oSjsiyME0wKm-Juq6vH45Oa5Ku8JKo3kUw&usqp=CAU"
+                },
+                {
+                    "titulo": "As Aventuras de Ford Fairlane",
+                    "descricao": "Fairlane é um famoso detetive que trabalha na indústria da música. Ele é contratado para desvendar a morte do vocalista de uma banda de heavy metal, e precisa encontrar uma fã, Zuzu Petals. Porém, todos que o contratam para achar a moça são mortos.",
+                    "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS_VeA1bu3I0zaLyTK-B1fXVf0ofLlT6MjdBUj7-AKFIkfRX9PB"
+                },
+                {
+                    "titulo": "Jornada nas Estrelas V: A Última Fronteira",
+                    "descricao": "A USS Enterprise é enviada para resgatar reféns em um planeta desolado chamado Nimbus III. Ao chegar ao planeta, a tripulação descobre que um vulcano renegado chamado Sybok, meio-irmão de Spock, tomou representantes klingons, romulanos e da Federação como reféns, de modo a obter para si uma nave estelar.",
+                    "img": "https://media.fstatic.com/0k7v1-dO1m1okoV1S5Vx6R_lqnc=/210x312/smart/media/movies/covers/2016/04/jornada-nas-estrelas-v-a-ultima-fronteira_t594.jpg"
+                },
+                {
+                    "titulo": "Cocktail",
+                    "descricao": "Brian Flanagan quer um emprego que pague bem, mas antes precisa de um diploma. Trabalhando como bartender para pagar a faculdade, Brian e seu chefe exibem truques e carisma para atrair a clientela e receber boas gorjetas. Mas os dois brigam e Brian se muda para a Jamaica para ganhar dinheiro e abrir o próprio bar e se apaixona pela artista Jordan Mooney.",
+                    "img": "https://tr.web.img4.acsta.net/medias/nmedia/18/85/74/82/19803190.jpg"
+                },
+                {
+                    "titulo": "Leonardo, um Agente Muito Trapalhão",
+                    "descricao": "Leonard Part 6 é um filme de comédia estadunidense de 1987 que faz uma paródia dos filmes de espionagem. Foi dirigido por Paul Weiland e estrelado por Bill Cosby, que também produziu o filme e escreveu sua história. O filme também é estrelado por Joe Don Baker e Gloria Foster, o último dos quais interpretou o vilão.",
+                    "img": "https://upload.wikimedia.org/wikipedia/pt/1/16/Leonard_Part_6.jpg"
+                },
+                {
+                    "titulo": "Howard, o Super-Herói",
+                    "descricao": "Adaptação de George Lucas para o cinema de um personagem da Marvel. Herói às avessas, o irônico e rabugento Howard é um pato alienígena que chega à Terra através de um estranho experimento científico e, acidentalmente, aporta em Cleveland, Ohio.",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0X-i4W97lkvrzWWdY18qzEIW8dPfbrDocNDDEJO0milUAvMZs"
+                },
+                {
+                    "titulo": "Sob o Luar da Primavera",
+                    "descricao": "Um americano que vive na França e que gosta de mulheres maduras apaixona-se por uma jovem herdeira.",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS81mIQFxwUqTRpF67zNhlyN6Jezzl1-J3ktppNz6HD-j7yt8iT"
+                },
+                {
+                    "titulo": "Rambo 2 - A Missão",
+                    "descricao": "Rambo está preso em uma penitenciária federal quando recebe uma proposta: será perdoado e reintegrado ao Exército se participar de uma missão no Vietnã, onde terá que enfrentar todo tipo de inimigos, inclusive oficiais americanos corruptos.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vXJSUAu7ObRI6pBleXdGUBJyTos.jpg"
+                },
+                {
+                    "titulo": "Bolero - Uma Aventura em Êxtase",
+                    "descricao": "Bolero é um filme erótico de drama romântico de 1984 estrelado por Bo Derek, escrito e dirigido por seu marido John Derek. O filme gira em torno do despertar sexual da protagonista e sua jornada ao redor do mundo para buscar o amante ideal que vai tirar a sua virgindade.",
+                    "img": "https://upload.wikimedia.org/wikipedia/pt/4/45/Bolero.jpg"
+                },
+                {
+                    "titulo": "A Mulher Só",
+                    "descricao": "The Lonely Lady é um filme estadunidense de 1983, que foi dirigido por Peter Sasdy e adaptado para a tela por Ellen Shepard, que trabalhou a partir do romance escrito por Harold Robbins. A música original foi composta por Charlie Calello.",
+                    "img": "https://media.fstatic.com/B8AMn7vuZ9TzCUm2YJ1Gr-AkayQ=/290x478/smart/media/movies/covers/2018/12/The-Lonely-Lady-images-1c36a22b-c79e-4b2c-8b22-748439344e2.jpg"
+                },
+                {
+                    "titulo": "Inchon",
+                    "descricao": "Inchon é um filme de 1982 sobre a Batalha de Inchon, considerada um ponto crucial na Guerra da Coreia. O filme é dirigido por Terence Young e financiado pelo fundador da Igreja da Unificação, Sun Myung Moon.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2aIkcC16uSF88Agt8DJB9md1S74.jpg"
+                }
+                ,
+                {
+                    "titulo": "Mamãezinha Querida",
+                    "descricao": "Cinebiografia da estrela de cinema Joan Crawford. Solteira, ela adota um casal de órfãos, e a princípio sua família pouco convencional parece feliz, mas quando sua vida amorosa e profissional piora, Joan começa a maltratar as crianças.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jsGJWTcoKzr6iL07KZsUDX96Gu7.jpg"
+                },
+                {
+                    "titulo": "A Música não pode Parar",
+                    "descricao": "Can't Stop the Music é um filme de comédia musical de 1980 dirigido por Nancy Walker. É uma pseudo-biografia do disco do Village People que tem apenas uma vaga semelhança com a história real da formação do grupo.",
+                    "img": "https://upload.wikimedia.org/wikipedia/pt/6/60/Can%27t_Stop_the_Music.jpg"
+                }
+            ]
+        },
+        {
+            "titulo": "Nunca Imaginados",
+            "itens": [
+                {
+                    "titulo": "Hamilton Item",
+                    "descricao": "Hamilton Item: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
+                    "img": "./img/hamilton.jpg"
+                }
+            ]
+        },
+        {
+            "titulo": "Porque Você Tem Medo de Andar na Rua",
+            "itens": [
+                {
+                    "titulo": "Hamilton Item",
+                    "descricao": "Hamilton Item: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
+                    "img": "./img/hamilton.jpg"
+                }
+            ]
         }
     ]
 }

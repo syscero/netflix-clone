@@ -1,9 +1,16 @@
 {
     "principal": [{
-        "titulo": "Zen e a arte da manutenção de motocicletas: Uma investigação sobre os valores",
+        "titulo": "Zen e a arte da manutenção de motocicletas",
         "descricao": "'Zen e a arte da manutenção de motocicletas' é uma epopéia moderna que mudou a mentalidade de toda uma geração e continua servindo de inspiração a milhões de pessoas. Esta narrativa de uma viagem de moto feita por um homem e seu filho durante as férias de verão transforma-se numa odisséia pessoal e filosófica e trata de questões fundamentais do nosso modo de viver. Ecoando todas as confusões da existência, este clássico, emocionante e transcendente, tem por tema a própria vida. O volume traz ainda uma arguta introdução escrita pelo autor e um Guia de leitura que inclui uma entrevista com Pirsig, cartas e documentos que detalham o processo que deu origem a este livro extraordinário.",
         "img": "https://images-na.ssl-images-amazon.com/images/I/31fm95Ic01L._SX329_BO1,204,203,200_.jpg",
         "url": "https://www.amazon.com.br/Arte-Manuten%C3%A7%C3%A3o-Motocicletas-Robert-Pirsig/dp/8546900086/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=zen&qid=1625758200&s=books&sr=1-6",
+        "urlTarget": "_blank",
+        "ocultarBtnAssistir": true
+    }, {
+        "titulo": "O Pequeno Príncipe",
+        "descricao": "Nesta clássica história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma jornada filosófica e poética através de planetas que encerram a solidão humana. A edição conta com a clássica tradução do poeta imortal dom Marcos Barbosa, e é a versão mais consagrada da obra, publicada no Brasil desde 1952.",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/41-TNa2nXtL._SX339_BO1,204,203,200_.jpg",
+        "url": "https://www.amazon.com.br/pequeno-pr%C3%ADncipe-Antoine-Saint-Exup%C3%A9ry/dp/8595081514/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=pequeno+pr%C3%ADncipe&qid=1625770992&s=books&sr=1-1",
         "urlTarget": "_blank",
         "ocultarBtnAssistir": true
     }],
