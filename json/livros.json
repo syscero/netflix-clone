@@ -1,29 +1,173 @@
 {
-    "principal": [{
-        "titulo": "Zen e a arte da manutenção de motocicletas",
-        "descricao": "'Zen e a arte da manutenção de motocicletas' é uma epopéia moderna que mudou a mentalidade de toda uma geração e continua servindo de inspiração a milhões de pessoas. Esta narrativa de uma viagem de moto feita por um homem e seu filho durante as férias de verão transforma-se numa odisséia pessoal e filosófica e trata de questões fundamentais do nosso modo de viver. Ecoando todas as confusões da existência, este clássico, emocionante e transcendente, tem por tema a própria vida. O volume traz ainda uma arguta introdução escrita pelo autor e um Guia de leitura que inclui uma entrevista com Pirsig, cartas e documentos que detalham o processo que deu origem a este livro extraordinário.",
-        "img": "https://images-na.ssl-images-amazon.com/images/I/31fm95Ic01L._SX329_BO1,204,203,200_.jpg",
-        "url": "https://www.amazon.com.br/Arte-Manuten%C3%A7%C3%A3o-Motocicletas-Robert-Pirsig/dp/8546900086/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=zen&qid=1625758200&s=books&sr=1-6",
-        "urlTarget": "_blank",
-        "ocultarBtnAssistir": true
-    }, {
-        "titulo": "O Pequeno Príncipe",
-        "descricao": "Nesta clássica história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma jornada filosófica e poética através de planetas que encerram a solidão humana. A edição conta com a clássica tradução do poeta imortal dom Marcos Barbosa, e é a versão mais consagrada da obra, publicada no Brasil desde 1952.",
-        "img": "https://images-na.ssl-images-amazon.com/images/I/41-TNa2nXtL._SX339_BO1,204,203,200_.jpg",
-        "url": "https://www.amazon.com.br/pequeno-pr%C3%ADncipe-Antoine-Saint-Exup%C3%A9ry/dp/8595081514/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=pequeno+pr%C3%ADncipe&qid=1625770992&s=books&sr=1-1",
-        "urlTarget": "_blank",
-        "ocultarBtnAssistir": true
-    }],
-    "categorias": [{
-        "titulo": "Por Onde começar",
-        "itens": [
-            {
-                "titulo": "Hamilton Item",
-                "descricao": "Hamilton Item: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
-                "img": "/img/hamilton.jpg",
-                "url": "https://google.com",
-                "urlTarget": "_blank"
-            }]
+    "principal": [
+        {
+            "titulo": "Zen e a arte da manutenção de motocicletas",
+            "descricao": "'Zen e a arte da manutenção de motocicletas' é uma epopéia moderna que mudou a mentalidade de toda uma geração e continua servindo de inspiração a milhões de pessoas. Esta narrativa de uma viagem de moto feita por um homem e seu filho durante as férias de verão transforma-se numa odisséia pessoal e filosófica e trata de questões fundamentais do nosso modo de viver. Ecoando todas as confusões da existência, este clássico, emocionante e transcendente, tem por tema a própria vida. O volume traz ainda uma arguta introdução escrita pelo autor e um Guia de leitura que inclui uma entrevista com Pirsig, cartas e documentos que detalham o processo que deu origem a este livro extraordinário.",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/31fm95Ic01L._SX329_BO1,204,203,200_.jpg",
+            "url": "https://www.amazon.com.br/Arte-Manuten%C3%A7%C3%A3o-Motocicletas-Robert-Pirsig/dp/8546900086/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=zen&qid=1625758200&s=books&sr=1-6",
+            "urlTarget": "_blank",
+            "ocultarBtnAssistir": true
+        },
+        {
+            "titulo": "O Pequeno Príncipe",
+            "descricao": "Nesta clássica história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma jornada filosófica e poética através de planetas que encerram a solidão humana. A edição conta com a clássica tradução do poeta imortal dom Marcos Barbosa, e é a versão mais consagrada da obra, publicada no Brasil desde 1952.",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/41-TNa2nXtL._SX339_BO1,204,203,200_.jpg",
+            "url": "https://www.amazon.com.br/pequeno-pr%C3%ADncipe-Antoine-Saint-Exup%C3%A9ry/dp/8595081514/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=pequeno+pr%C3%ADncipe&qid=1625770992&s=books&sr=1-1",
+            "urlTarget": "_blank",
+            "ocultarBtnAssistir": true
+        },
+        {
+            "titulo": "Dom Quixote",
+            "descricao": "Influenciado pelas gloriosas histórias de cavalaria, um homem já de idade avançada resolve se aventurar pelo mundo montado em um pangaré e em companhia de um simples camponês. Nesta adaptação, as aventuras de Dom Quixote e Sancho Pança exaltam a essência do Cavaleiro da Triste Figura.",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/519ejAnQjLL._SX346_BO1,204,203,200_.jpg",
+            "url": "https://www.amazon.com.br/Dom-Quixote-Miguel-Cervantes/dp/8594318677/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=dom+quixote&qid=1625792600&s=books&sr=1-3",
+            "urlTarget": "_blank",
+            "ocultarBtnAssistir": true
+        },
+        {
+            "titulo": "O velho e o mar",
+            "descricao": "Depois de anos na profissão, havia 84 dias que o velho pescador Santiago não apanhava um único peixe. Por isso já diziam se tratar de um salão, ou seja, um azarento da pior espécie. Mas ele possui coragem, acredita em si mesmo, e parte sozinho para alto-mar, munido da certeza de que, desta vez, será bem-sucedido no seu trabalho. Esta é a história de um homem que convive com a solidão, com seus sonhos e pensamentos, sua luta pela sobrevivência e a inabalável confiança na vida. Com um enredo tenso que prende o leitor na ponta da linha, Hemingway escreveu uma das mais belas obras da literatura contemporânea. Uma história dotada de profunda mensagem de fé no homem e em sua capacidade de superar as limitações a que a vida o submete.",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/419Jl7oflOL._SX334_BO1,204,203,200_.jpg",
+            "url": "https://www.amazon.com.br/velho-mar-Ernest-Hemingway/dp/852861798X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=O+velho+e+o+mar&qid=1625792752&s=books&sr=1-1",
+            "urlTarget": "_blank",
+            "ocultarBtnAssistir": true
+        },
+        {
+            "titulo": "O homem invisível",
+            "descricao": "O impulsivo cientista Griffin, que dedicou sua vida aos estudos da óptica e da refração, torna-se invisível. Incapaz de reverter tal efeito, ele luta para não se entregar à loucura e ao crime.",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/51gs5YQH+PL._SX326_BO1,204,203,200_.jpg",
+            "url": "https://www.amazon.com.br/homem-invis%C3%ADvel-H-G-Wells/dp/658601462X/ref=sr_1_4?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Homem+invis%C3%ADvel&qid=1625792940&s=books&sr=1-4",
+            "urlTarget": "_blank",
+            "ocultarBtnAssistir": true
+        },
+        {
+            "titulo": "Moby Dick",
+            "descricao": "Lançado em 1851, Moby Dick, ou A baleia, de Herman Melville (1819-1891), se tornou um dos livros de aventura mais emblemáticos da literatura universal. A história do capitão Ahab, em busca de vingança contra o terrível cachalote que amputara sua perna, entrou definitivamente para a cultura popular, inspirando, entre outras criações, pinturas de Jackson Pollock e Frank Stella, adaptações de Orson Welles para o rádio e o teatro, um filme de John Huston, e até um blues do Led Zeppelin. Mas uma leitura atenta da obra-prima de Melville pode revelar as camadas mais profundas do texto, que deram ao autor o posto de maior prosador norte-americano do século XIX. Entremeados à narrativa vão se sobressaindo múltiplos elementos: referências bíblicas que ecoam críticas da época ao nascente imperialismo dos Estados Unidos; a questão racial, personificada na figura dos três arpoadores, um negro, um índio e um nativo polinésio; a análise da extração do óleo dos cachalotes como atividade econômica industrial, incluindo uma discussão sobre a sustentabilidade da pesca das baleias; as tensões sociais, que aparecem nas relações entre superiores e subordinados e na possibilidade sempre presente de um motim ― tudo isso encenado no palco shakespeariano do convés de um baleeiro que parte de Nantucket, em Massachusetts, até chegar ao Pacífico, onde ocorre o enfrentamento final entre o obsessivo capitão Ahab e a monstruosa baleia branca. Além de trazer ensaios de Evert Duyckinck, D. H. Lawrence e F. O. Mathiessen sobre Moby Dick, que delineiam a recepção crítica do livro, esta nova edição apresenta um prefácio de Albert Camus, inédito em nosso país, e um ensaio de Bruno Gambarotto, um dos maiores especialistas brasileiros na obra de Melville.",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/51q8KhlSkFL._SX348_BO1,204,203,200_.jpg",
+            "url": "https://www.amazon.com.br/Moby-Dick-Ou-Baleia-Melville/dp/8573267380/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Moby+Dick&qid=1625793066&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9",
+            "urlTarget": "_blank",
+            "ocultarBtnAssistir": true
+        },
+        {
+            "titulo": "1984",
+            "descricao": "Publicada originalmente em 1949, a distopia futurista 1984 é um dos romances mais influentes do século XX, um inquestionável clássico moderno. Lançada poucos meses antes da morte do autor, é uma obra magistral que ainda se impõe como uma poderosa reflexão ficcional sobre a essência nefasta de qualquer forma de poder totalitário.",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/51feD87yuEL._SX321_BO1,204,203,200_.jpg",
+            "url": "https://www.amazon.com.br/1984-George-Orwell/dp/8535914846/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=1984&qid=1625793270&s=books&sr=1-1",
+            "urlTarget": "_blank",
+            "ocultarBtnAssistir": true
+        },
+        {
+            "titulo": "O processo",
+            "descricao": "A história de Josef K. atravessa os anos sem perder nada do seu vigor. Ao contrário, a banalização da violência irracional no século XX acrescentou a ela o fascínio dos romances realistas. Na sua luta para descobrir por que o acusam, por quem é acusado e que lei ampara a acusação, K. defronta permanentemente com a impossibilidade de escolher um caminho que lhe pareça sensato ou lógico, pois o processo de que é vítima segue leis próprias: as leis do arbítrio.",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/51kFSgVrLFL._SX345_BO1,204,203,200_.jpg",
+            "url": "https://www.amazon.com.br/processo-Franz-Kafka/dp/8535907432/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=O+processo&qid=1625793408&s=books&sr=1-1",
+            "urlTarget": "_blank",
+            "ocultarBtnAssistir": true
+        }
+    ],
+    "categorias": [
+        {
+            "titulo": "Por Onde começar",
+            "itens": [
+                {
+                    "titulo": "Zen e a arte da manutenção de motocicletas",
+                    "descricao": "'Zen e a arte da manutenção de motocicletas' é uma epopéia moderna que mudou a mentalidade de toda uma geração e continua servindo de inspiração a milhões de pessoas. Esta narrativa de uma viagem de moto feita por um homem e seu filho durante as férias de verão transforma-se numa odisséia pessoal e filosófica e trata de questões fundamentais do nosso modo de viver. Ecoando todas as confusões da existência, este clássico, emocionante e transcendente, tem por tema a própria vida. O volume traz ainda uma arguta introdução escrita pelo autor e um Guia de leitura que inclui uma entrevista com Pirsig, cartas e documentos que detalham o processo que deu origem a este livro extraordinário.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/31fm95Ic01L._SX329_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/Arte-Manuten%C3%A7%C3%A3o-Motocicletas-Robert-Pirsig/dp/8546900086/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=zen&qid=1625758200&s=books&sr=1-6",
+                    "urlTarget": "_blank"
+                },
+                {
+                    "titulo": "O Pequeno Príncipe",
+                    "descricao": "Nesta clássica história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma jornada filosófica e poética através de planetas que encerram a solidão humana. A edição conta com a clássica tradução do poeta imortal dom Marcos Barbosa, e é a versão mais consagrada da obra, publicada no Brasil desde 1952.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/41-TNa2nXtL._SX339_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/pequeno-pr%C3%ADncipe-Antoine-Saint-Exup%C3%A9ry/dp/8595081514/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=pequeno+pr%C3%ADncipe&qid=1625770992&s=books&sr=1-1",
+                    "urlTarget": "_blank"
+                },
+                {
+                    "titulo": "Dom Quixote",
+                    "descricao": "Influenciado pelas gloriosas histórias de cavalaria, um homem já de idade avançada resolve se aventurar pelo mundo montado em um pangaré e em companhia de um simples camponês. Nesta adaptação, as aventuras de Dom Quixote e Sancho Pança exaltam a essência do Cavaleiro da Triste Figura.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/519ejAnQjLL._SX346_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/Dom-Quixote-Miguel-Cervantes/dp/8594318677/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=dom+quixote&qid=1625792600&s=books&sr=1-3",
+                    "urlTarget": "_blank"
+                },
+                {
+                    "titulo": "O velho e o mar",
+                    "descricao": "Depois de anos na profissão, havia 84 dias que o velho pescador Santiago não apanhava um único peixe. Por isso já diziam se tratar de um salão, ou seja, um azarento da pior espécie. Mas ele possui coragem, acredita em si mesmo, e parte sozinho para alto-mar, munido da certeza de que, desta vez, será bem-sucedido no seu trabalho. Esta é a história de um homem que convive com a solidão, com seus sonhos e pensamentos, sua luta pela sobrevivência e a inabalável confiança na vida. Com um enredo tenso que prende o leitor na ponta da linha, Hemingway escreveu uma das mais belas obras da literatura contemporânea. Uma história dotada de profunda mensagem de fé no homem e em sua capacidade de superar as limitações a que a vida o submete.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/419Jl7oflOL._SX334_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/velho-mar-Ernest-Hemingway/dp/852861798X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=O+velho+e+o+mar&qid=1625792752&s=books&sr=1-1",
+                    "urlTarget": "_blank"
+                },
+                {
+                    "titulo": "O homem invisível",
+                    "descricao": "O impulsivo cientista Griffin, que dedicou sua vida aos estudos da óptica e da refração, torna-se invisível. Incapaz de reverter tal efeito, ele luta para não se entregar à loucura e ao crime.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/51gs5YQH+PL._SX326_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/homem-invis%C3%ADvel-H-G-Wells/dp/658601462X/ref=sr_1_4?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Homem+invis%C3%ADvel&qid=1625792940&s=books&sr=1-4",
+                    "urlTarget": "_blank"
+                },
+                {
+                    "titulo": "Moby Dick",
+                    "descricao": "Lançado em 1851, Moby Dick, ou A baleia, de Herman Melville (1819-1891), se tornou um dos livros de aventura mais emblemáticos da literatura universal. A história do capitão Ahab, em busca de vingança contra o terrível cachalote que amputara sua perna, entrou definitivamente para a cultura popular, inspirando, entre outras criações, pinturas de Jackson Pollock e Frank Stella, adaptações de Orson Welles para o rádio e o teatro, um filme de John Huston, e até um blues do Led Zeppelin. Mas uma leitura atenta da obra-prima de Melville pode revelar as camadas mais profundas do texto, que deram ao autor o posto de maior prosador norte-americano do século XIX. Entremeados à narrativa vão se sobressaindo múltiplos elementos: referências bíblicas que ecoam críticas da época ao nascente imperialismo dos Estados Unidos; a questão racial, personificada na figura dos três arpoadores, um negro, um índio e um nativo polinésio; a análise da extração do óleo dos cachalotes como atividade econômica industrial, incluindo uma discussão sobre a sustentabilidade da pesca das baleias; as tensões sociais, que aparecem nas relações entre superiores e subordinados e na possibilidade sempre presente de um motim ― tudo isso encenado no palco shakespeariano do convés de um baleeiro que parte de Nantucket, em Massachusetts, até chegar ao Pacífico, onde ocorre o enfrentamento final entre o obsessivo capitão Ahab e a monstruosa baleia branca. Além de trazer ensaios de Evert Duyckinck, D. H. Lawrence e F. O. Mathiessen sobre Moby Dick, que delineiam a recepção crítica do livro, esta nova edição apresenta um prefácio de Albert Camus, inédito em nosso país, e um ensaio de Bruno Gambarotto, um dos maiores especialistas brasileiros na obra de Melville.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/51q8KhlSkFL._SX348_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/Moby-Dick-Ou-Baleia-Melville/dp/8573267380/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Moby+Dick&qid=1625793066&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9",
+                    "urlTarget": "_blank"
+                },
+                {
+                    "titulo": "1984",
+                    "descricao": "Publicada originalmente em 1949, a distopia futurista 1984 é um dos romances mais influentes do século XX, um inquestionável clássico moderno. Lançada poucos meses antes da morte do autor, é uma obra magistral que ainda se impõe como uma poderosa reflexão ficcional sobre a essência nefasta de qualquer forma de poder totalitário.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/51feD87yuEL._SX321_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/1984-George-Orwell/dp/8535914846/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=1984&qid=1625793270&s=books&sr=1-1",
+                    "urlTarget": "_blank"
+                },
+                {
+                    "titulo": "O processo",
+                    "descricao": "A história de Josef K. atravessa os anos sem perder nada do seu vigor. Ao contrário, a banalização da violência irracional no século XX acrescentou a ela o fascínio dos romances realistas. Na sua luta para descobrir por que o acusam, por quem é acusado e que lei ampara a acusação, K. defronta permanentemente com a impossibilidade de escolher um caminho que lhe pareça sensato ou lógico, pois o processo de que é vítima segue leis próprias: as leis do arbítrio.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/51kFSgVrLFL._SX345_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/processo-Franz-Kafka/dp/8535907432/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=O+processo&qid=1625793408&s=books&sr=1-1",
+                    "urlTarget": "_blank"
+                }
+            ]
+        },
+        {
+            "titulo": "Para Mudar de Vida",
+            "itens": [
+                {
+                    "titulo": "Meditações",
+                    "descricao": "Marco Aurélio trava um diálogo interior em busca de verdades fundamentais por meio da razão sem deixar de lado a sensibilidade.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/41bQU67zLnL._SX330_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/Medita%C3%A7%C3%B5es-Marco-Aur%C3%A9lio/dp/8552100916?ref_=Oct_otopr_d_7841728011&pd_rd_w=uajX2&pf_rd_p=32b1ddde-8c67-4d85-bbf2-2754a91fdba5&pf_rd_r=9ZH6N9EADMWGB7T7T0H2&pd_rd_r=3e4dfab2-bf32-462b-8aad-821322e87e1e&pd_rd_wg=hnvmh&pd_rd_i=8552100916",
+                    "urlTarget": "_blank"
+                },{
+                    "titulo": "Manual de Epicteto: A arte de viver melhor",
+                    "descricao": "Epicteto, um dos principais representantes do estoicismo, deixou em seu legado ensinamentos éticos com preceitos práticos para questões atemporais sobre a arte de viver melhor.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/41mn5iCCQsL._SX331_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/Manual-Epicteto-melhor-Bil%C3%ADngue-marcador/dp/6556600334?ref_=Oct_oup_d_7841728011&pd_rd_w=Z5hWJ&pf_rd_p=4363facb-f26e-4204-b790-09dd2dba71a5&pf_rd_r=9ZH6N9EADMWGB7T7T0H2&pd_rd_r=3e4dfab2-bf32-462b-8aad-821322e87e1e&pd_rd_wg=hnvmh&pd_rd_i=6556600334",
+                    "urlTarget": "_blank"
+                },{
+                    "titulo": "Sobre a brevidade da vida",
+                    "descricao": "Sobre a brevidade da vida apresenta o pensamento de Sêneca, um dos principais nomes da filosofia estoica na história.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/41vcWMfhzJL._SX331_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/Sobre-brevidade-vida-Bil%C3%ADngue-marcador/dp/6556600164/ref=pd_bxgy_img_2/132-1008853-8818959?pd_rd_w=D0Xbo&pf_rd_p=4a943320-02ab-4775-ad7a-eaf57d00a244&pf_rd_r=4PFBC10S64V29VWJFJMM&pd_rd_r=86b31782-ad14-4e34-bdd3-a824a2dc5842&pd_rd_wg=beD2S&pd_rd_i=6556600164&psc=1",
+                    "urlTarget": "_blank"
+                },{
+                    "titulo": "Por que fazemos o que fazemos?",
+                    "descricao": "Bateu aquela preguiça de ir para o escritório na segunda-feira? A falta de tempo virou uma constante? A rotina está tirando o prazer no dia a dia? Anda em dúvida sobre qual é o real objetivo de sua vida? O filósofo e escritor Mario Sergio Cortella desvenda em Por que fazemos o que fazemos? as principais preocupações com relação ao trabalho. Dividido em vinte capítulos, ele aborda questões como a importância de ter uma vida com propósito, a motivação em tempos difíceis, os valores e a lealdade – a si e ao seu emprego. O livro é um verdadeiro manual para todo mundo que tem uma carreira mas vive se questionando sobre o presente e o futuro. Recheado de ensinamentos como \"Paciência na turbulência, sabedoria na travessia\", é uma obra fundamental para quem sonha com realização profissional sem abrir mão da vida",
+                    "img": "https://m.media-amazon.com/images/I/51hjpRXSKXL.jpg",
+                    "url": "https://www.amazon.com.br/Por-que-fazemos-ebook/dp/B01JT2I3DA?ref_=Oct_odotd_d_2_d418eaf5&pd_rd_w=M1PoJ&pf_rd_p=95dca1cc-ca40-47f6-b95c-6305bdc06a5d&pf_rd_r=9ZH6N9EADMWGB7T7T0H2&pd_rd_r=3e4dfab2-bf32-462b-8aad-821322e87e1e&pd_rd_wg=hnvmh",
+                    "urlTarget": "_blank"
+                },{
+                    "titulo": "Como Fazer Amigos e Influenciar Pessoas",
+                    "descricao": "O guia clássico e definitivo para relacionar-se com as pessoas Não é por acaso que, mais de setenta anos depois de sua primeira edição, depois de mais de 50 milhões de exemplares vendidos, Como fazer amigos e influenciar pessoas segue sendo um livro inovador, e uma das principais referências do mundo sobre relacionamentos, seja no âmbito profissional ou pessoal. Os conselhos, métodos e as ideias de Dale Carnegie já beneficiaram milhões de pessoas, e permanecem completamente atuais. Carnegie fornece, nesse livro, técnicas e métodos, de maneira extremamente direta, para que qualquer pessoa alcance seus objetivos pessoais e profissionais.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/51dEGjSXrTL._SX359_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/Como-Fazer-Amigos-Influenciar-Pessoas/dp/8504018024?ref_=Oct_omwf_d_7841720011&pd_rd_w=kUgll&pf_rd_p=ff189d57-1a2d-4ee9-963a-61cd7aa22374&pf_rd_r=E9X9SHZD6HGNDQ67Z453&pd_rd_r=6a1ece34-caef-4b14-a950-bbfc0f71f795&pd_rd_wg=5FXAt&pd_rd_i=8504018024",
+                    "urlTarget": "_blank"
+                },{
+                    "titulo": "O Ego É Seu Inimigo. Como Dominar Seu Pior Adversário",
+                    "descricao": "Ele arruinou a carreira de gênios promissores. Mandou pelos ares grandes fortunas e destruiu empresas. Tornou as adversidades insuportáveis e transformou esforço em vergonha. Seu nome? Ego.",
+                    "img": "https://images-na.ssl-images-amazon.com/images/I/41PdSya62XL._SX325_BO1,204,203,200_.jpg",
+                    "url": "https://www.amazon.com.br/Inimigo-Como-Dominar-Pior-Advers%C3%A1rio/dp/8551002422/ref=sr_1_17?dchild=1&qid=1625794173&rnid=7841720011&s=books&sr=1-17",
+                    "urlTarget": "_blank"
+                }
+            ]
         }
     ]
 }
