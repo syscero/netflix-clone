@@ -181,7 +181,7 @@ const criarItemPrincipal = (perfilUsuario, mainCarousel, {titulo, descricao, img
                 <h3 class="titulo">${titulo}</h3>
                 <p class="descricao">${truncarSeMaior(descricao, 200)}</p>
                 <div class="botoes">
-                    <button role="button" onclick="alert(1)" ${ocultar} >
+                    <button role="button" ${ocultar} >
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>

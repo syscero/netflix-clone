@@ -1,37 +1,75 @@
 {
-    "principal": [{
-        "titulo": "House of Cards",
-        "descricao": "O congressista Francis Underwood e sua mulher, Claire, fazem de tudo para conquistar seus objetivos, não importa o que aconteça. Um mundo político recheado de ganância, corrupção e luxúria na capital Washington.",
-        "img": "/img/capa-house.jpg"
-    }, {
-        "titulo": "Hamilton",
-        "descricao": "Hamilton: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
-        "img": "/img/hamilton.jpg"
-    }],
-    "categorias": [{
-        "titulo": "Menos Assistidos",
-        "itens": [
-            {
-                "titulo": "Hamilton Item",
-                "descricao": "Hamilton Item: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
-                "img": "/img/hamilton.jpg"
-            }]
-        }, {
-        "titulo": "Nunca imaginados",
-        "itens": [
-            {
-                "titulo": "Hamilton Item",
-                "descricao": "Hamilton Item: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
-                "img": "/img/hamilton.jpg"
-            }]
-        }, {
-        "titulo":"Porque Você Tem Medo de Andar na Rua",
-        "itens": [
-            {
-                "titulo": "Hamilton Item",
-                "descricao": "Hamilton Item: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004 \"Alexander Hamilton\" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.",
-                "img": "/img/hamilton.jpg"
-            }]
+    "principal": [
+        {
+            "titulo": "A Terra é Plana",
+            "descricao": "Séculos atrás, muitas culturas acreditavam que a Terra era um disco plano. À medida que o pensamento científico e a tecnologia evoluíram, a Terra revelou-se um globo, uma visão amplamente aceita hoje - mas não por todos. O movimento da Terra plana tem visto um recente ressurgimento. Esses teóricos da conspiração negam o modelo científico do globo e se juntam através de convenções, fóruns e plataformas online para discutir seu sistema de crenças. No outro extremo do espectro, a comunidade científica visa combater esse mito ressuscitado, resultando em uma batalha pública cada vez maior de conspirações e anti-intelectualismo. Dando uma olhada completa em todos os lados do debate, Behind the Curve mostra que não importa onde você esteja sobre esta questão, as conversas e as pessoas ao redor são tudo, menos planas.",
+            "img": "https://www.themoviedb.org/t/p/w500_and_h282_face/wB8sK40u27FQjWZgc1LhYZixpC6.jpg"
+        },
+        {
+            "titulo": "Debi & Lóide - Dois Idiotas em Apuros",
+            "descricao": "Dois amigos debilóides vão para Aspen, no estado do Colorado para tentar devolver uma maleta esquecida pela passageira da limusine que um deles estava dirigindo para o aeroporto. Sem saber que na mala havia uma quantia enorme de dinheiro, que serviria para pagar o resgate de um sequestro, os dois acabam sendo perseguidos pela polícia e por assassinos profissionais.",
+            "img": "https://www.themoviedb.org/t/p/original/6ELocXlTnboUAxoevKIs9nhfiuS.jpg"
+        },
+        {
+            "titulo": "Borat: Fita de Cinema Seguinte",
+            "descricao": "Borat retorna aos Estados Unidos e dessa vez procura oferecer a sua filha em casamento para o vice-presidente, Mike Pence.",
+            "img": "https://www.themoviedb.org/t/p/original/3Ysvp4ODDC6sucdQ9quHWkMiKED.jpg"
         }
+    ],
+    "categorias": [
+        {
+            "titulo": "Porque Você Faz Sentido",
+            "itens": [
+                {
+                    "titulo": "A Terra é Plana",
+                    "descricao": "Séculos atrás, muitas culturas acreditavam que a Terra era um disco plano. À medida que o pensamento científico e a tecnologia evoluíram, a Terra revelou-se um globo, uma visão amplamente aceita hoje - mas não por todos. O movimento da Terra plana tem visto um recente ressurgimento. Esses teóricos da conspiração negam o modelo científico do globo e se juntam através de convenções, fóruns e plataformas online para discutir seu sistema de crenças. No outro extremo do espectro, a comunidade científica visa combater esse mito ressuscitado, resultando em uma batalha pública cada vez maior de conspirações e anti-intelectualismo. Dando uma olhada completa em todos os lados do debate, Behind the Curve mostra que não importa onde você esteja sobre esta questão, as conversas e as pessoas ao redor são tudo, menos planas.",
+                    "img": "https://www.themoviedb.org/t/p/original/rGT9MUIyZ0cC4lcjM2Dw0lGbxnu.jpg"
+                }, {
+                    "titulo": "Debi & Lóide - Dois Idiotas em Apuros",
+                    "descricao": "Dois amigos debilóides vão para Aspen, no estado do Colorado para tentar devolver uma maleta esquecida pela passageira da limusine que um deles estava dirigindo para o aeroporto. Sem saber que na mala havia uma quantia enorme de dinheiro, que serviria para pagar o resgate de um sequestro, os dois acabam sendo perseguidos pela polícia e por assassinos profissionais.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1MbzwxjT5C32oc7U5AmVBTTMv7C.jpg"
+                },
+                {
+                    "titulo": "Borat: Fita de Cinema Seguinte",
+                    "descricao": "Borat retorna aos Estados Unidos e dessa vez procura oferecer a sua filha em casamento para o vice-presidente, Mike Pence.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/h4ciG34AaQLfk38ltBGMDdxLeF5.jpg"
+                },
+                {
+                    "titulo": "Top Gang!: Ases Muito Loucos",
+                    "descricao": "Piloto talentoso e instável precisa superar os fantasmas de seu pai e salvar uma missão sabotada por fabricantes de armas gananciosos em meio a uma série de confusões e um enorme mal-entendido.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d8SnIlQoveEyJCJNSvXUmqIj3BI.jpg"
+                },
+                {
+                    "titulo": "Top Gang 2! - A Missão",
+                    "descricao": "Topper Harley (Charlie Sheen) está vivendo em um templo budista, seu incompetente ex-comandante (Lloyd Bridges) está na Casa Branca, e reféns americanos precisam ser resgatados no Oriente Médio! Topper é o único homem para o serviço, mas ele está obcecado demais por sua ex-namorada (Valeria Golino) para aceitar a tarefa - até que uma bela agente da CIA o coloca de volta na sela. É uma missão hilariante que leva Harley e sua Top Gang por uma trilha repleta de ação, de sátiras dos clássicos do cinema e conta com a participação de rostos famosos em cenas divertidas.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eRZtJ6jRXhWdxAxMvbnbE9oKuhi.jpg"
+                },
+                {
+                    "titulo": "Debi & Lóide 2: Quando Debi Conheceu Lóide",
+                    "descricao": "Em 1986, Harry Dunne (Derek Richardson) e Lloyd Christmas (Eric Christian Olsen) se conhecem. Ambos estão cursando o colegial e, com um Q.I. bem abaixo do normal e uma grande habilidade em causar confusões, logo se tornam grandes amigos. Juntos eles precisam lidar com os demais estudantes no colégio e com seus próprios pais.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mk8FFXBWq25ag2vk8PgcEnxSkHo.jpg"
+                },
+                {
+                    "titulo": "O Ditador",
+                    "descricao": "O general Aladeen é o ditador da República de Wadiya, na África, desde que tinha seis anos de idade. Ameaçado de morte, ele é aconselhado por um tio a ir para Nova York e acaba encontrando compatriotas exilados na cidade.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aU0Ayk89wKyrsvC4SyT5Ht8IRM3.jpg"
+                },
+                {
+                    "titulo": "Ace Ventura: Um Detetive Diferente",
+                    "descricao": "Ace Ventura é um detetive especializado em desvendar crimes envolvendo animais. Vive cercado de bichos, mas não tem muito trabalho. O desaparecimento de um golfinho, mascote da equipe de futebol americano Miami Dolphins, aparentemente seqüestrado, torna-se seu primeiro grande caso. Atrapalhado como é, Ace conduz a investigação de uma maneira bem peculiar.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/k2WsM7e0sv3IM3BgTKKesY1dAOt.jpg"
+                },
+                {
+                    "titulo": "Jackass: O Filme",
+                    "descricao": "Johnny Knoxville e seus companheiros corajosos e estúpidos fazem estripulias absurdas em nome da diversão. Eles invadem o Japão, onde se disfarçam de pandas, atacam um campo de golfe e enfrentam jacarés.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/svPmW4nC0226352c3LhcppAqIPK.jpg"
+                },
+                {
+                    "titulo": "Loucademia de Polícia",
+                    "descricao": "O prefeito resolve mudar a lei, afirmando que fatores como sexo, peso e inteligência não devem influenciar nas aplicações para a força policial. Liderado por Carey Mahoney, um grupo de jovens incompetentes, mas de bom coração, ingressa na Academia de Polícia para o desespero dos instrutores, que buscarão impedir de toda as formas as brincadeiras da turma.",
+                    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9R7hTHaSeKU7Fk0Dr75Y6YhdYcu.jpg"
+                }
+            ]
+        }        
     ]
 }
