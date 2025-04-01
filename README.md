@@ -15,3 +15,4 @@ Novos recursos serão adicionados, com listas ainda mais divertidas!
 - acessar http://localhost:[porta]/
 
 Também é possível acessar via file://, mas o conteúdo será limitado.
+ 
