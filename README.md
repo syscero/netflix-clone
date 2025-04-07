@@ -14,5 +14,5 @@ Novos recursos serão adicionados, com listas ainda mais divertidas!
 - iniciar um http server no diretório principal (netflix-clone)
 - acessar http://localhost:[porta]/
 
-Também é possível acessar via file://, mas o conteúdo será limitado.
+Também é possível acessar via file://, mas o conteúdo será limitado. (vamos testar outro pullrequest)
  
