@@ -11,7 +11,7 @@ Novos recursos serão adicionados, com listas ainda mais divertidas!
 
 ## Instruções
 - clonar o repositório
-- iniciar um http server no diretório principal (netflix-clone)
+- iniciar um http server no diretório principal (netflix-clone) 
 - acessar http://localhost:[porta]/
 
 Também é possível acessar via file://, mas o conteúdo será limitado.
