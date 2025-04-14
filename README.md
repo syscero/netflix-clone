@@ -7,7 +7,7 @@ Existe uma lista com os piores filmes dos últimos 40 anos, o Framboesa de Ouro.
 
 Existe uma opção para quem prefere livros.
 
-Novos recursos serão adicionados, com listas ainda mais divertidas!  
+Novos recursos serão adicionados, com listas ainda mais divertidas!   
 
 ## Instruções
 - clonar o repositório
