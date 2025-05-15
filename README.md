@@ -17,3 +17,4 @@ Novos recursos serão adicionados, com listas ainda mais divertidas!
 Também é possível acessar via file://, mas o conteúdo será limitado.
  
 Demonstração treinamento....
+Nova modificação. Requer aprovação. Solicitação de pullrequest.
