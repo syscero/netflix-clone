@@ -16,6 +16,4 @@ Novos recursos serão adicionados, com listas ainda mais divertidas!
 
 Também é possível acessar via file://, mas o conteúdo será limitado.
  
-Ajuste para testar pullrequest na tarefa 13287
-Teste pull request demanda 2848
-Testando 12790
+Demonstração treinamento....
