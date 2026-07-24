@@ -1,24 +1,124 @@
-@media screen and (max-width:400px) {
-    .descricao {
-        width: 100%;
+/* Mobile first refinements */
+@media screen and (max-width: 768px) {
+    :root {
+        --alturaPrincipal: min(78vh, 520px);
+        --tamanhoFonteLogo: 1.75em;
+        --tamanhoFonteTitulo: 1.65em;
+        --tamanhoFontePrincipal: 1em;
+        --tamanhoFonteBtn: 13px;
+        --espacoLateral: 1rem;
+        --headerAltura: auto;
     }
-    .titulo {
-        font-size: 1.8em;
-    }
-}
 
-@media screen and (max-width:950px) {
     header .container {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    header nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .filme-principal {
+        padding: 1.5rem 0 2.5rem;
+        background-image: linear-gradient(
+                to top,
+                rgba(0, 0, 0, 0.92) 0%,
+                rgba(0, 0, 0, 0.65) 40%,
+                rgba(0, 0, 0, 0.45) 100%
+            ),
+            var(--hero-image);
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .filme-principal.perfil-livros {
+        background-position: center;
+    }
+
+    .filme-principal .container {
+        width: 100%;
+        margin-left: 0;
+        padding-left: var(--espacoLateral);
+        padding-right: var(--espacoLateral);
+    }
+
+    .filme-principal .descricao {
+        margin: 0.85rem 0 1.15rem;
+        width: 100%;
+        max-width: none;
+        font-size: 0.95rem;
+    }
+
+    .botoes {
         flex-direction: column;
+        width: 100%;
     }
 
     .botoes button {
-        margin-top: 10px;           
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin-right: 0;
+    }
+
+    /* Em touch, overlay sempre legível sob o poster */
+    .banner-overlay {
+        opacity: 1;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 55%, transparent 75%);
+    }
+
+    .banner-descricao {
+        -webkit-line-clamp: 2;
     }
 }
 
-@media screen and (min-width:1000px) {
-    .descricao {
+@media screen and (max-width: 400px) {
+    :root {
+        --tamanhoFonteTitulo: 1.4em;
+        --tamanhoFonteLogo: 1.5em;
+    }
+
+    .titulo {
+        font-size: var(--tamanhoFonteTitulo);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+    .filme-principal .descricao {
+        width: 70%;
+        max-width: 28rem;
+    }
+
+    .botoes button {
+        min-width: min(100%, 200px);
+        flex: 1 1 auto;
+        max-width: 260px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    header .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .filme-principal .descricao {
         width: 50%;
+        max-width: 36rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .skeleton-pulse {
+        animation: none;
+    }
+
+    .banner-overlay,
+    .botoes button {
+        transition: none;
     }
 }

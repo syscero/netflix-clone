@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/main.css">        
+    <link rel="stylesheet" href="./style/main.css?v=a11y2">
     <!-- Responsividade-->
     <link rel="stylesheet" href="./style/responsive.css">
     <!-- Own css -->
@@ -15,19 +15,21 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">    
+    <link rel="manifest" href="/site.webmanifest">
 </head>
-<body onload="init()">
+<body class="is-loading" onload="init()">
+    <a class="skip-link" href="#conteudo-principal">Ir para o conteúdo</a>
+    <div id="status-carregamento" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></div>
     <header>
        <div class="container">
-            <h2 class="logo">NETPHLIX</h2>   
-            <nav>
-                <a href="#">Início teste Trace Proj Ágil testando pull request</a>                
-                <a href="#">
-                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+            <p class="logo">NETPHLIX</p>
+            <nav aria-label="Conta e perfil">
+                <span class="nav-login is-disabled" role="link" aria-disabled="true" title="Login ilustrativo — sem autenticação">
+                    <svg class="icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"/></svg>
                     Login
-                </a>
-                <select onchange="mudarPerfil(this)">
+                </span>
+                <label class="perfil-label" for="perfil-select">Escolher perfil</label>
+                <select id="perfil-select" onchange="mudarPerfil(this)">
                     <option value="0">Sou Normal</option>
                     <option value="1">Sou Terraplanista</option>
                     <option value="2">Prefiro Livros</option>
@@ -35,44 +37,41 @@
             </nav>
        </div>
     </header>
-    <main class='main'>
-        <div class="owl-carousel owl-theme">
-            <div class="filme-principal item">           
-                <div class="container">
-                    <h3 class="titulo">TITULO DO CARD</h3>
-                    <p class="descricao">Aqui uma descrição do filme</p>
-                    <div class="botoes">
-                        <button role="button" onclick="alert(1)">
-                                <i class="fas fa-play"></i>
-                                ASSISTIR AGORA
-                            </button>
-                        <button role="button">
-                                <i class="fas fa-info-circle"></i>
-                            MAIS INFORMAÇÕES
-                            </button>
+    <main id="conteudo-principal" class="main" aria-busy="true">
+        <div class="hero-carousel-wrap">
+            <div class="owl-carousel owl-theme" aria-label="Destaques" aria-roledescription="carrossel">
+                <div class="filme-principal item is-skeleton skeleton-pulse">
+                    <div class="container">
+                        <h3 class="titulo">Carregando</h3>
+                        <p class="descricao">Carregando catálogo</p>
+                        <div class="botoes">
+                            <button type="button" disabled aria-hidden="true">ASSISTIR AGORA</button>
+                            <button type="button" disabled aria-hidden="true">MAIS INFORMAÇÕES</button>
                         </div>
-                </div>
+                    </div>
+               </div>
            </div>
-       </div>
-    </main>   
-    <section>
+        </div>
+    </main>
+    <section id="catalogo-categorias" aria-label="Categorias" aria-busy="true">
         <div class="carrossel-filmes">
-            <div class="categoria-filme">
-                <h2>Menos Assistidos</h2>                
+            <div class="categoria-filme is-skeleton skeleton-pulse">
+                <h2>Carregando</h2>
                 <div class="owl-carousel owl-theme">
-                    <div class="item"><img src="./img/hamilton.jpg" alt="Hamilton"></div>           
+                    <div class="item banner"></div>
+                    <div class="item banner"></div>
+                    <div class="item banner"></div>
                 </div>
-            </div>            
+            </div>
         </div>
     </section>
-   
-    <!-- TERCEIROS -->
-   <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>             
+
+    <!-- TERCEIROS (vendored localmente — sem CDN) -->
    <script src="./js/owl/jquery.min.js"></script>
    <script src="./js/owl/owl.carousel.min.js"></script>
    <!-- -->
-   <script src="./js/service.js"></script>   
-   <script src="./js/main.js"></script>    
+   <script src="./js/service.js"></script>
+   <script src="./js/main.js"></script>
    <script src="./js/acoes.js"></script>
 </body>
 </html>
