@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/main.css?v=a11y2">
     <!-- Responsividade-->
     <link rel="stylesheet" href="./style/responsive.css">
     <!-- Own css -->
@@ -18,14 +18,16 @@
     <link rel="manifest" href="/site.webmanifest">
 </head>
 <body class="is-loading" onload="init()">
+    <a class="skip-link" href="#conteudo-principal">Ir para o conteúdo</a>
+    <div id="status-carregamento" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></div>
     <header>
        <div class="container">
-            <h2 class="logo">NETPHLIX</h2>
-            <nav>
-                <a href="#" class="is-disabled" aria-disabled="true" title="Login ilustrativo — sem autenticação">
+            <p class="logo">NETPHLIX</p>
+            <nav aria-label="Conta e perfil">
+                <span class="nav-login is-disabled" role="link" aria-disabled="true" title="Login ilustrativo — sem autenticação">
                     <svg class="icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"/></svg>
                     Login
-                </a>
+                </span>
                 <label class="perfil-label" for="perfil-select">Escolher perfil</label>
                 <select id="perfil-select" onchange="mudarPerfil(this)">
                     <option value="0">Sou Normal</option>
@@ -35,21 +37,23 @@
             </nav>
        </div>
     </header>
-    <main class="main" aria-busy="true">
-        <div class="owl-carousel owl-theme">
-            <div class="filme-principal item is-skeleton skeleton-pulse">
-                <div class="container">
-                    <h3 class="titulo">Carregando</h3>
-                    <p class="descricao">Carregando catálogo</p>
-                    <div class="botoes">
-                        <button type="button" disabled aria-hidden="true">ASSISTIR AGORA</button>
-                        <button type="button" disabled aria-hidden="true">MAIS INFORMAÇÕES</button>
+    <main id="conteudo-principal" class="main" aria-busy="true">
+        <div class="hero-carousel-wrap">
+            <div class="owl-carousel owl-theme" aria-label="Destaques" aria-roledescription="carrossel">
+                <div class="filme-principal item is-skeleton skeleton-pulse">
+                    <div class="container">
+                        <h3 class="titulo">Carregando</h3>
+                        <p class="descricao">Carregando catálogo</p>
+                        <div class="botoes">
+                            <button type="button" disabled aria-hidden="true">ASSISTIR AGORA</button>
+                            <button type="button" disabled aria-hidden="true">MAIS INFORMAÇÕES</button>
+                        </div>
                     </div>
-                </div>
+               </div>
            </div>
-       </div>
+        </div>
     </main>
-    <section aria-busy="true">
+    <section id="catalogo-categorias" aria-label="Categorias" aria-busy="true">
         <div class="carrossel-filmes">
             <div class="categoria-filme is-skeleton skeleton-pulse">
                 <h2>Carregando</h2>
